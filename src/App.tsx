@@ -1,7 +1,11 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Loader from "./components/Loader";
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> ca7254c... Initial
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Products = lazy(() => import("./pages/Products"));
 const Transaction = lazy(() => import("./pages/Transaction"));
